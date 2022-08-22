@@ -172,7 +172,7 @@ def copyThumb():
 app = QtWidgets.QApplication([])
 form = uic.loadUi('formHome.ui')
 
-versionYouDownMach = "0.1.0"
+versionYouDownMach = "0.1.0 - By GitHub: FmachadG"
 form.label_RVersion.setText(f"{versionYouDownMach}")
 
 form.checkBox_DownAudio.clicked.connect(enablePathResol)
